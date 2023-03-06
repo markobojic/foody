@@ -1,0 +1,32 @@
+@import "../../../styles/colors.scss";
+
+.meal-item {
+    padding: 1rem;
+    border-bottom: 1px solid $smoke;
+    display: flex;
+    justify-content: space-between;
+
+    h2,
+    h3,
+    p {
+        margin: 0;
+    }
+
+    &:first-of-type {
+        padding-top: 0;
+    }
+
+    &:last-of-type {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .description {
+        font-style: italic;
+        margin: 1rem 0;
+    }
+
+    .price {
+        color: $primary-color;
+    }
+}

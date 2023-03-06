@@ -1,0 +1,49 @@
+@import "../../../styles/colors.scss";
+
+.about-wrapper {
+    margin-top: 80px;
+    height: 80vh;
+    min-height: 800px;
+    background-image: url("../../../assets/meals.webp");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .description {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: $primary-color;
+        width: 600px;
+        padding: 3rem;
+        color: $white;
+        text-align: center;
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

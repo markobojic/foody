@@ -1,0 +1,8 @@
+@import "../../../styles/colors.scss";
+
+.card {
+    padding: 1rem;
+    box-shadow: 0 2px 8px $smoke;
+    border-radius: 14px;
+    background-color: $white;
+}

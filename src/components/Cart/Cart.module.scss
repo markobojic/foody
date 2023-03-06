@@ -1,0 +1,21 @@
+.cart-items {
+    margin: 0;
+    padding: 1rem;
+    max-height: 20rem;
+    overflow: scroll;
+}
+
+.total {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 1rem;
+}
